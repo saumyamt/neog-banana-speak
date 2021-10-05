@@ -1,9 +1,9 @@
 var btnTranslate = document.querySelector("#btn-translate");
-var txtinput = document.querySelector("#text-input");
+var txtinput = document.querySelector("#txt-input");
+var outputdiv =  document.querySelector("#output");
 
 function clickHandler(){
-    console.log("clicked!");
-    console.log("input",txtinput.value);
+    outputdiv.innerText = "DSDASDDAD" + txtinput.ariaValueMax;
 }
 
-btnTranslate.addEventListener("click",clickHandler)
+btnTranslate.addEventListener("click",clickHandler);
